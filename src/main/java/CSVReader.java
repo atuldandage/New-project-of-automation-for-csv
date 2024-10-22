@@ -26,7 +26,7 @@ public class CSVReader {
 
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace();;
         }
 
         return csvData;  // Return the list containing CSV data
