@@ -50,6 +50,10 @@ public class CSVReader {
         	  String userName=row[0];
         	  String pass=row[2];        	//System.out.println(String.join(", ", row));  // Print each row
         System.out.println(userName+"   "+pass);
+        System.out.println("this is new line in Y");
+        System.out.println("this is new line in Y");
+        System.out.println("this is new line in Y");
+        
         }
     }
 	    }
