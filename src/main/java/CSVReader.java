@@ -22,7 +22,7 @@ public class CSVReader {
                 csvData.add(data);  // Add each line's data to the list
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace();;
         }
 
         return csvData;  // Return the list containing CSV data
